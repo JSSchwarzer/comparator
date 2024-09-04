@@ -1,10 +1,10 @@
-AZURE_SEARCH_SERVICE: str = "https://aisearchapp.search.windows.net"
+AZURE_SEARCH_SERVICE: str = "https://semanticsearcher.search.windows.net"
 AZURE_OPENAI_ACCOUNT: str = "https://johannes.openai.azure.com/"
 AZURE_DEPLOYMENT_MODEL: str = "gpt-35-turbo"
 
 # Set query parameters for grounding the conversation on your search index
 search_type="text"
-use_semantic_reranker=True
+use_semantic_reranker=False
 sources_to_include=5
 
 # Set up the query for generating responses
